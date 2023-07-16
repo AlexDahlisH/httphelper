@@ -7,6 +7,8 @@ type HttpHelper struct {
 	header *http.Header
 }
 
+const Hello = "Hello there"
+
 func Status(status int) *HttpHelper {
 	return &HttpHelper{
 		status: status,
